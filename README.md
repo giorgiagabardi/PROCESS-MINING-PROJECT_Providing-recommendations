@@ -1,8 +1,7 @@
-# Process Mining — Project 2: Providing Recommendations
+# Process Mining Project: Providing Recommendations
 
-A predictive and prescriptive process monitoring system based on decision trees with boolean encoding. Given a production event log, the system predicts whether ongoing process instances will result in a positive (fast) or negative (slow) outcome, and generates actionable recommendations for negatively predicted traces.
+A predictive and prescriptive process monitoring system based on decision trees with boolean encoding. Given a production event log, the system predicts whether ongoing process instances will result in a positive (fast) or negative (slow) outcome and generates actionable recommendations for negatively predicted traces.
 
-**Author:** Giorgia Gabardi (257838)
 
 ---
 
@@ -16,7 +15,7 @@ my_implementation/
 │   ├── preprocessing.py      # Log import, prefix generation with padding, boolean encoding
 │   ├── tree_utils.py         # DFS traversal, path compliance, missing condition extraction
 │   └── recommendations.py    # extract_recommendations() and evaluate_recommendations()
-├── tutorial_completo.ipynb   # Complete step-by-step notebook (main entry point)
+├── project.ipynb   # Complete step-by-step notebook (main entry point)
 ├── requirements.txt          # Python dependencies
 └── README.md                 # This file
 ```
@@ -46,8 +45,6 @@ The main dependencies are:
 - **pandas / numpy** — data manipulation
 - **matplotlib / seaborn** — visualization
 - **graphviz** — decision tree rendering (requires the `graphviz` system package)
-
-> **Note:** On macOS you may also need `brew install graphviz`; on Ubuntu: `sudo apt install graphviz`.
 
 ---
 
@@ -160,4 +157,4 @@ The prefix length comparison (1–12) shows that prediction quality is relativel
 
 ## Report
 
-The accompanying LaTeX report is located in `../LaTeXTemplates_diaz-essay_v2/report_part1.tex` and provides a detailed description of the methodology, algorithms (with pseudocode), results, and discussion.
+The LaTeX report is in `../LaTeXTemplates_diaz-essay_v2/report_part1.tex` and provides a detailed description of the methodology, algorithms (with pseudocode), results and discussion.
