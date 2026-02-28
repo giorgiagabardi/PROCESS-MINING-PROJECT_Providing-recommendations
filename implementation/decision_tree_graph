@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled, rounded, fontsize=20, width=1.5, height=1", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<Laser Marking - Machine 7 &le; 0.5<br/>entropy = 0.929<br/>samples = 100.0%<br/>value = [0.345, 0.655]<br/>class = true>, fillcolor="#a1d1f3"] ;
+1 [label=<Turning Q.C. &le; 0.5<br/>entropy = 0.757<br/>samples = 67.2%<br/>value = [0.218, 0.782]<br/>class = true>, fillcolor="#70b8ec"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<entropy = 0.68<br/>samples = 62.7%<br/>value = [0.18, 0.82]<br/>class = true>, fillcolor="#65b3eb"] ;
+1 -> 2 ;
+3 [label=<entropy = 0.811<br/>samples = 4.5%<br/>value = [0.75, 0.25]<br/>class = false>, fillcolor="#eeab7b"] ;
+1 -> 3 ;
+4 [label=<Final Inspection Q.C. &le; 0.5<br/>entropy = 0.969<br/>samples = 32.8%<br/>value = [0.603, 0.397]<br/>class = false>, fillcolor="#f6d4bb"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label=<entropy = 0.706<br/>samples = 14.7%<br/>value = [0.808, 0.192]<br/>class = false>, fillcolor="#eb9f68"] ;
+4 -> 5 ;
+6 [label=<entropy = 0.989<br/>samples = 18.1%<br/>value = [0.438, 0.562]<br/>class = true>, fillcolor="#d3e9f9"] ;
+4 -> 6 ;
+}

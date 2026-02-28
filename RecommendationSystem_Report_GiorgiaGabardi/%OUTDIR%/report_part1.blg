@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is '%OUTDIR%/report_part1.blg'
+[56] biber-darwin:340> INFO - === Thu Feb 26, 2026, 19:02:15
+[68] Biber.pm:419> INFO - Reading '%OUTDIR%/report_part1.bcf'
+[129] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[142] bbl.pm:660> INFO - Writing '%OUTDIR%/report_part1.bbl' with encoding 'UTF-8'
+[142] bbl.pm:763> INFO - Output to %OUTDIR%/report_part1.bbl
+[142] Biber.pm:131> WARN - The file '%OUTDIR%/report_part1.bcf' does not contain any citations!
+[142] Biber.pm:133> INFO - WARNINGS: 1
