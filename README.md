@@ -40,11 +40,11 @@ pip install -r requirements.txt
 ```
 
 The main dependencies are:
-- **pm4py** — process mining (XES import, EventLog handling)
-- **scikit-learn** — decision tree classifier, GridSearchCV, metrics
-- **pandas / numpy** — data manipulation
-- **matplotlib / seaborn** — visualization
-- **graphviz** — decision tree rendering (requires the `graphviz` system package)
+- **pm4py**: process mining (XES import, EventLog handling)
+- **scikit-learn**: decision tree classifier, GridSearchCV, metrics
+- **pandas / numpy**: data manipulation
+- **matplotlib / seaborn**: visualization
+- **graphviz**: decision tree rendering (requires the `graphviz` system package)
 
 ---
 
@@ -54,7 +54,7 @@ Open and execute the notebook sequentially:
 
 ```bash
 cd my_implementation
-jupyter notebook tutorial_completo.ipynb
+jupyter notebook project.ipynb
 ```
 
 Alternatively, open the notebook in VS Code with the Jupyter extension.
@@ -63,7 +63,7 @@ Alternatively, open the notebook in VS Code with the Jupyter extension.
 
 ## Pipeline Overview
 
-The notebook (`tutorial_completo.ipynb`) executes the full pipeline:
+The notebook (`project.ipynb`) executes the full pipeline:
 
 | Step | Description |
 |------|-------------|
@@ -157,4 +157,4 @@ The prefix length comparison (1–12) shows that prediction quality is relativel
 
 ## Report
 
-The LaTeX report is in `../LaTeXTemplates_diaz-essay_v2/report_part1.tex` and provides a detailed description of the methodology, algorithms (with pseudocode), results and discussion.
+The Report `Report.pdf` provides a description of the methodology, algorithms (with pseudocode) and discussion of the obtained results.
