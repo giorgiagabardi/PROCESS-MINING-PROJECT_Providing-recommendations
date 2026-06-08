@@ -81,7 +81,6 @@ The notebook (`project.ipynb`) executes the full pipeline:
 | 11 | Visual example — highlight recommendation path on the decision tree |
 | 12 | Compare prediction and recommendation metrics across prefix lengths 5 and 11 |
 | 12b | Comprehensive prefix length analysis (1–12) with plots |
-| 13 | Export all figures for the LaTeX report |
 
 ---
 
